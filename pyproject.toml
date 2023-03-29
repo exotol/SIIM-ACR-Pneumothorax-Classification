@@ -9,6 +9,8 @@ packages = [{include = "siim_acr_pneumothorax_classification"}]
 [tool.poetry.dependencies]
 python = "3.9.13"
 torch = "^2.0.0"
+kaggle = "^1.5.13"
+dvc = "^2.51.0"
 
 
 [build-system]

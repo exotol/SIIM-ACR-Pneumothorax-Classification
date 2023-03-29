@@ -43,4 +43,4 @@ load:
 	@echo "Загрузка и распаковка данных с каггла"
 	kaggle competitions download -c siim-acr-pneumothorax-segmentation -p data/raw/; \
 	unzip data/raw/siim-acr-pneumothorax-segmentation.zip -d data/raw/; \
-#	rm -rf data/raw/siim-acr-pneumothorax-segmentation.zip data/raw/test_tfrecords data/raw/train_tfrecords;\
+	rm -rf data/raw/siim-acr-pneumothorax-segmentation.zip
