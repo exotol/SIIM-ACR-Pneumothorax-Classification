@@ -1,0 +1,5 @@
+outs:
+- md5: e59976d23e0d4c7908341f8352d2b852.dir
+  size: 433214206
+  nfiles: 3205
+  path: stage_2_images
